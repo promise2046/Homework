@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homework_sale</title>
+    <style>
+        .img-fluid {
+            width: 500px;
+            height: auto;
+
+        }
+
+        .custom-select {
+            width: 160px;
+        }
+
+        .wrap {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+
+        }
+        *{font-family: 'Gaegu', cursive;}
+    </style>
+    <link href="https://fonts.googleapis.com/css?family=Gaegu&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class=wrap>
+        <img src="https://i.dailymail.co.uk/1/2018/09/26/18/4561828-6210205-The_Transition_on_land_The_first_of_the_two_seat_hybrid_electric-a-32_1537982445393.jpg"
+            class="img-fluid">
+
+        <div>
+            <h1>
+                <span style="font-size:40px; margin-right:40px;"><strong>하나자</strong></span> <Span
+                    style="font-size:20px">가격
+                    : 200,000원/1대</Span>
+            </h1>
+            <h2 style="width:500px;  text-overflow: ellipsis; font-size:20px">
+                미래형 잇템! 하늘을 나는 자동차 입니다. 아주 저렴한 가격 20만원에 살 수 있는 기회를 제공합니다.
+                놓치시면 후회할 바로 그 상품!!!
+            </h2>
+        </div>
+        <h3>
+            <span style="font-size:40px; margin-right:40px;"><strong>주문하기</strong>
+        </h3>
+        <p class="cen">
+            주문자 이름 : <input type="text">
+        </p>
+        <p class="cen">
+            <span style="margin-right:30px;">수량</span> : <select class="custom-select mr-sm-2">
+                <option selected>Choose...</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+            </select>
+        </p>
+        <p class="cen">
+            <span style="margin-right:55px;">주소 </span>: <input type="text">
+        </p>
+        <p class="cen">
+            <span style="margin-right:23px;">전화번호</span> : <input type="text">
+        </p>
+        <button type="button" class="btn btn-success">주문하기</button>
+    </div>
+
+
+</body>
+
+</html>
